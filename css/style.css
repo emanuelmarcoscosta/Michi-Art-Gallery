@@ -4,6 +4,193 @@
     box-sizing: border-box;
 }
 
+@media  (min-width:320px){  
+    
+    /*Esta es la barra de Navegación.*/
+
+.navBar{
+    padding-top: 11px;
+    padding-bottom: 15px;
+}
+
+ul{
+    list-style-type: none;
+    overflow: none; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+li{
+    height: 3.5em;
+    padding-left: 5px;
+    margin: auto;
+}
+
+li a{
+    color: black;
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-size: 35px;
+    line-height: 58px;
+    text-align: center;
+    text-decoration: none;
+}
+
+li img{}
+
+/*Este el CSS de las fotos de los Gatitos en el HTML Index*/
+
+.gridGatos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/*Este es el CSS del HTML "Categorías"*/
+
+.michisUrbanos{
+    grid-area: 1;
+}
+
+.michisHogareños{
+    grid-area: 2;
+}
+
+.michisNegros{
+    grid-area: 3;
+}
+
+.michisEgipcios{    
+    grid-area: 4;
+}
+
+.michisGordos{
+    grid-area: 5;
+}
+
+.michisBlancos{
+    grid-area: 6;
+}
+
+.coolMichis{
+    grid-area: 7;
+}
+
+.miniMichis{
+    grid-area: 8;
+}
+
+.contenedor{
+    display:grid;
+    grid-template-areas: 
+    "1 2 3 4"
+    "5 6 7 8";
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    grid-row-gap: 1%;
+    grid-column-gap: 1%;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-bottom: 2%;
+}
+
+/*Este es el CSS del HTML Top10*/
+
+.top10Michis{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 20%;
+    padding-top: 1%;
+}
+
+/*Este es el CSS del HTML Envía tu Michi*/
+
+input[type-text]:focus {
+ border: 3px solid black;
+}
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type=button], input[type=submit], input[type=reset] {
+    width: 100%;
+    background-color: #474747;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: #9c9c9c;
+  }
+
+  form{
+    color: black;
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-size: 20px;
+    text-align: center;
+  }
+
+.formularioMichis{
+    width: 100%;
+}
+
+.formularioFotojuntos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 7%;
+}
+
+.gatitoVerde{
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-bottom: 18px;
+    padding-right: 5%;
+}
+
+/*Footers y Headers*/
+
+.barraGris{
+    background-color: grey;
+    height: 1px;
+}
+
+.barraGris2{
+    background-color: grey;
+    height: 50px;
+}
+
+.footerMichi{
+    text-align: center;
+    color: white;
+    padding-top: 3%;
+    font-family: 'Playfair Display SC';
+    font-style: normal;
+    font-size: 18px;
+}
+}
+
 @media  (min-width:576px){  
     
     /*Esta es la barra de Navegación.*/
