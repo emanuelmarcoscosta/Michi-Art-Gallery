@@ -279,8 +279,10 @@ li img{}
 .contenedor{
     display:grid;
     grid-template-areas: 
-    "1 2 3 4"
-    "5 6 7 8";
+    "1 2" 
+    "3 4"
+    "5 6" 
+    "7 8";
     grid-template-rows: auto;
     grid-template-columns: auto;
     grid-row-gap: 1%;
@@ -466,8 +468,10 @@ li img{}
 .contenedor{
     display:grid;
     grid-template-areas: 
-    "1 2 3 4"
-    "5 6 7 8";
+    "1 2" 
+    "3 4"
+    "5 6" 
+    "7 8";
     grid-template-rows: auto;
     grid-template-columns: auto;
     grid-row-gap: 1%;
@@ -759,8 +763,7 @@ input[type-text]:focus {
     }
     
     }
- 
-    
+  
 .contenedor { 
     animation: transitionIn 0.75s;
 }
